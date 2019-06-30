@@ -1,0 +1,61 @@
+html, body
+	width 100vw
+	height 100vh
+
+body
+	margin 0
+	padding 0
+	box-sizing border-box
+	font-family:
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Oxygen-Sans,
+		Ubuntu,
+		Cantarell,
+		"Helvetica Neue",
+		sans-serif
+	background-color #E0E0E0
+
+div, input, button, textarea, svg, svg *, img,
+span, a, p, q, b, i, label, section,
+h1, h2, h3, h4, h5, h6
+	background none
+	border none
+	outline none
+	box-sizing border-box
+	transition all cubic-bezier(.22,.61,.36,1) 300ms
+	&:before, &:after
+		background none
+		border none
+		outline none
+		box-sizing border-box
+		transition all cubic-bezier(.22,.61,.36,1) 300ms
+
+button, input, textarea
+	font-size 1rem
+	border-radius 4px
+
+button
+	display flex
+	padding .5rem 1rem
+	cursor pointer
+	border solid 1px rgba(0,0,0,.1)
+	color #000
+	background-color #FFF
+	align-content center
+	align-items center
+	flex-flow row nowrap
+	> *:not(:first-child)
+		margin-left .5rem
+	&:hover
+		border-color #000
+	&:active,
+	&:focus
+		border-color #000
+		box-shadow 0 0 0 .25rem rgba(0,0,0,.15)
+
+span, a, p, q, b, i,
+h1, h2, h3, h4, h5, h6
+	cursor default
