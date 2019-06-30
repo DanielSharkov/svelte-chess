@@ -1,0 +1,133 @@
+.player.svelte-178qnl3{position:absolute;top:0;display:flex;height:100%;min-width:400px;max-width:25%;padding:2rem;flex-flow:column nowrap;justify-content:flex-start;align-content:center;align-items:center;box-shadow:0 0 50px rgba(0,0,0,0.5);pointer-events:all}.player.svelte-178qnl3:after{content:'';position:absolute;top:50%;height:2rem;width:2px;border-radius:1rem;transform:translateY(-50%)}.player.svelte-178qnl3>.svelte-178qnl3{width:100%;flex:0 0 auto}.player.svelte-178qnl3 .title.svelte-178qnl3{margin:1rem 0 2rem 0;text-align:center;text-transform:capitalize;font-weight:400}.player.svelte-178qnl3 h4.svelte-178qnl3{margin-bottom:0.5rem}.player.svelte-178qnl3 .turns-history.svelte-178qnl3,.player.svelte-178qnl3 .enemy-pieces.svelte-178qnl3{padding:0.5rem;flex:0 1 50%;flex-flow:row wrap;border-radius:4px;overflow:auto;border:solid 1px}.player.svelte-178qnl3 .enemy-pieces.svelte-178qnl3,.player.svelte-178qnl3 .turns-history .empty.svelte-178qnl3{display:flex;flex-flow:row wrap;justify-content:flex-start;align-content:flex-start;align-items:flex-start}.player.svelte-178qnl3 .turns-history .empty.svelte-178qnl3,.player.svelte-178qnl3 .enemy-pieces .empty.svelte-178qnl3{opacity:0.5;padding:0.5rem;font-size:0.65rem}.player.svelte-178qnl3 .turns-history .entry.svelte-178qnl3{display:flex;padding:0.5rem;border-radius:4px}.player.svelte-178qnl3 .turns-history .entry .figure.svelte-178qnl3:first-child{margin-right:0.5rem}.player.svelte-178qnl3 .turns-history .entry .from.svelte-178qnl3,.player.svelte-178qnl3 .turns-history .entry .to.svelte-178qnl3{padding:0.25rem 0.5rem;border-radius:4px}.player.svelte-178qnl3 .turns-history .entry .icon.svelte-178qnl3,.player.svelte-178qnl3 .turns-history .entry .figure.svelte-178qnl3{height:1.5rem;width:1.5rem}.player.svelte-178qnl3 .turns-history .entry .icon.svelte-178qnl3{margin:auto 0.5rem}.player.svelte-178qnl3 .turns-history .entry .time.svelte-178qnl3{margin:auto 0 auto auto;font-size:0.6rem;font-family:'Fira Code', 'Monaco', monospace}.player.svelte-178qnl3 .enemy-pieces .entry.svelte-178qnl3{padding:0.5rem;flex:0 0 calc(100% / 5);border-radius:4px}.player.white.svelte-178qnl3{left:0;padding:2rem 2.5rem 2rem 2rem;background-color:#fff;transform:translateX(calc(-100% + 1rem));border-right:solid 1px rgba(0,0,0,0.15)}.player.white.svelte-178qnl3:after{right:0.4rem;background-color:#000}.player.white.svelte-178qnl3 .turns-history.svelte-178qnl3,.player.white.svelte-178qnl3 .enemy-pieces.svelte-178qnl3{background-color:rgba(0,0,0,0.1);border-color:rgba(0,0,0,0.05)}.player.white.svelte-178qnl3 .turns-history .entry.svelte-178qnl3:hover,.player.white.svelte-178qnl3 .enemy-pieces .entry.svelte-178qnl3:hover,.player.white.svelte-178qnl3 .turns-history .entry.hovering.svelte-178qnl3,.player.white.svelte-178qnl3 .enemy-pieces .entry.hovering.svelte-178qnl3{background-color:rgba(0,0,0,0.2)}.player.white.svelte-178qnl3 .turns-history .entry .from.svelte-178qnl3,.player.white.svelte-178qnl3 .turns-history .entry .to.svelte-178qnl3{background-color:rgba(255,255,255,0.5)}.player.white.svelte-178qnl3 .turns-history .entry:hover .from.svelte-178qnl3,.player.white.svelte-178qnl3 .turns-history .entry.hovering .from.svelte-178qnl3,.player.white.svelte-178qnl3 .turns-history .entry:hover .to.svelte-178qnl3,.player.white.svelte-178qnl3 .turns-history .entry.hovering .to.svelte-178qnl3{background-color:#fff}.player.white.svelte-178qnl3 .turns-history .entry .icon.svelte-178qnl3{stroke:#000}.player.black.svelte-178qnl3{right:0;background-color:#000;padding:2rem 2rem 2rem 2.5rem;color:#fff;border-left:solid 1px rgba(255,255,255,0.15);transform:translateX(calc(100% - 1rem))}.player.black.svelte-178qnl3:after{left:0.4rem;background-color:#fff}.player.black.svelte-178qnl3 .turns-history.svelte-178qnl3,.player.black.svelte-178qnl3 .enemy-pieces.svelte-178qnl3{background-color:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.05)}.player.black.svelte-178qnl3 .turns-history .entry.svelte-178qnl3:hover,.player.black.svelte-178qnl3 .enemy-pieces .entry.svelte-178qnl3:hover,.player.black.svelte-178qnl3 .turns-history .entry.hovering.svelte-178qnl3,.player.black.svelte-178qnl3 .enemy-pieces .entry.hovering.svelte-178qnl3{background-color:rgba(255,255,255,0.2)}.player.black.svelte-178qnl3 .turns-history .entry .from.svelte-178qnl3,.player.black.svelte-178qnl3 .turns-history .entry .to.svelte-178qnl3{background-color:rgba(0,0,0,0.5)}.player.black.svelte-178qnl3 .turns-history .entry:hover .from.svelte-178qnl3,.player.black.svelte-178qnl3 .turns-history .entry.hovering .from.svelte-178qnl3,.player.black.svelte-178qnl3 .turns-history .entry:hover .to.svelte-178qnl3,.player.black.svelte-178qnl3 .turns-history .entry.hovering .to.svelte-178qnl3{background-color:#000}.player.black.svelte-178qnl3 .turns-history .entry .icon.svelte-178qnl3{stroke:#fff}.player.svelte-178qnl3:hover{transform:translateX(0)}.player.fancy.svelte-178qnl3{-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}.player.fancy.black.svelte-178qnl3{background-color:rgba(0,0,0,0.6)}.player.fancy.white.svelte-178qnl3{background-color:rgba(255,255,255,0.6)}
+.content.svelte-13uw8lr{width:500px}h1.svelte-13uw8lr{margin:2rem 0 4rem 0;text-align:center}h4.svelte-13uw8lr{display:flex;margin:0 0 1rem 0;padding:0.5rem;flex:1 1 100%;text-align:center;align-items:center}.close-modal.svelte-13uw8lr{position:absolute;top:2rem;right:2rem;display:flex;padding:0.25rem;border-radius:100%;justify-content:center;align-content:center;align-items:center}.close-modal.svelte-13uw8lr .icon.svelte-13uw8lr{height:1.25rem;width:1.25rem;stroke:#000}h4.svelte-13uw8lr:before,h4.svelte-13uw8lr:after{content:'';height:1px;margin:auto 1rem;flex:1 1 auto;background-color:rgba(0,0,0,0.1)}section.svelte-13uw8lr{margin-top:4rem}.background.svelte-13uw8lr .options.svelte-13uw8lr{display:flex;flex-flow:row wrap;width:100%;justify-content:flex-start;align-items:center}.background.svelte-13uw8lr .options .image.svelte-13uw8lr{position:relative;background-size:cover;height:100px;box-shadow:0 4px 10px rgba(0,0,0,0.2);border-radius:4px;flex:0 0 calc(100% / 3 - 1rem);border:none;overflow:hidden}.background.svelte-13uw8lr .options .image.svelte-13uw8lr:nth-child(3n+1){margin:0 1rem 1.5rem 0}.background.svelte-13uw8lr .options .image.svelte-13uw8lr:nth-child(3n+2){margin:0 0.5rem 1.5rem 0.5rem}.background.svelte-13uw8lr .options .image.svelte-13uw8lr:nth-child(3n+3){margin:0 0 1.5rem 1rem}.background.svelte-13uw8lr .options .image.svelte-13uw8lr:not(.active){cursor:pointer}.background.svelte-13uw8lr .options .image.svelte-13uw8lr:not(.active):hover,.background.svelte-13uw8lr .options .image.svelte-13uw8lr:focus{transform:scale(1.1)}.background.svelte-13uw8lr .options .image.svelte-13uw8lr:after{content:'Selected';position:absolute;bottom:0;left:0;display:flex;width:100%;height:2.5rem;justify-content:center;align-content:center;align-items:center;background-color:rgba(0,0,0,0.5);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);color:#fff;transition:all cubic-bezier(0.22, 0.61, 0.36, 1) 300ms;border-radius:0 0 4px 4px;transform:translateY(100%);border-top:solid 1px rgba(255,255,255,0.25)}.background.svelte-13uw8lr .options .image.active.svelte-13uw8lr:after{transform:translateY(0)}.background.svelte-13uw8lr .options .image .remove.svelte-13uw8lr{position:absolute;top:0.5rem;right:0.5rem;display:flex;height:1.5rem;width:1.5rem;margin:0;padding:0;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);background-color:rgba(0,0,0,0.5);opacity:0;box-shadow:0 0 0 1px rgba(255,255,255,0.25);border-radius:100%;justify-content:center;align-content:center;align-items:center}.background.svelte-13uw8lr .options .image .remove.svelte-13uw8lr:hover{box-shadow:0 0 0 0.25rem rgba(255,255,255,0.5)}.background.svelte-13uw8lr .options .image .remove .icon.svelte-13uw8lr{height:1rem;width:1rem;stroke:#fff}.background.svelte-13uw8lr .options .image:hover .remove.svelte-13uw8lr{opacity:1}.background.svelte-13uw8lr .own-bg.svelte-13uw8lr{display:flex;margin:0 auto 1rem auto;flex-flow:row nowrap;justify-content:flex-start;align-content:center;align-items:center}.background.svelte-13uw8lr .own-bg input.svelte-13uw8lr{padding:0.5rem;border:solid 1px rgba(0,0,0,0.1);flex:1 1 auto}.background.svelte-13uw8lr .own-bg input.svelte-13uw8lr:hover{border-color:rgba(0,0,0,0.5)}.background.svelte-13uw8lr .own-bg input.svelte-13uw8lr:active,.background.svelte-13uw8lr .own-bg input.svelte-13uw8lr:focus{border-color:#000;box-shadow:0 0 0 0.25rem rgba(0,0,0,0.15)}.background.svelte-13uw8lr .own-bg button.svelte-13uw8lr{margin-left:0.5rem;padding:0.5rem 1rem;flex:0 0 auto}.graphics.svelte-13uw8lr .toggle.svelte-13uw8lr{position:relative;display:flex;width:60%;margin:0 auto;padding:0;border-radius:4px;border:solid 1px rgba(0,0,0,0.1);cursor:pointer}.graphics.svelte-13uw8lr .toggle.svelte-13uw8lr:focus{box-shadow:0 0 0 0.25rem rgba(0,0,0,0.1);border-color:#000}.graphics.svelte-13uw8lr .toggle span.svelte-13uw8lr{z-index:1;padding:0.5rem 0;flex:1 1 50%;text-align:center;pointer-events:none}.graphics.svelte-13uw8lr .toggle span.active.svelte-13uw8lr{color:#fff}.graphics.svelte-13uw8lr .toggle .slide.svelte-13uw8lr{z-index:0;position:absolute;left:0;top:0;width:50%;height:100%;margin:0;background-color:#000;border-radius:4px 0 0 4px;transition-duration:200;pointer-events:none}.graphics.svelte-13uw8lr .toggle.fancy .slide.svelte-13uw8lr{border-radius:0 4px 4px 0;transform:translateX(100%)}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: #e0e0e0;
+}
+div,
+input,
+button,
+textarea,
+svg,
+svg *,
+img,
+span,
+a,
+p,
+q,
+b,
+i,
+label,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 300ms;
+}
+div:before,
+input:before,
+button:before,
+textarea:before,
+svg:before,
+svg *:before,
+img:before,
+span:before,
+a:before,
+p:before,
+q:before,
+b:before,
+i:before,
+label:before,
+section:before,
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before,
+div:after,
+input:after,
+button:after,
+textarea:after,
+svg:after,
+svg *:after,
+img:after,
+span:after,
+a:after,
+p:after,
+q:after,
+b:after,
+i:after,
+label:after,
+section:after,
+h1:after,
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after {
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: all cubic-bezier(0.22, 0.61, 0.36, 1) 300ms;
+}
+button,
+input,
+textarea {
+  font-size: 1rem;
+  border-radius: 4px;
+}
+button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: solid 1px rgba(0,0,0,0.1);
+  color: #000;
+  background-color: #fff;
+  align-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+button > *:not(:first-child) {
+  margin-left: 0.5rem;
+}
+button:hover {
+  border-color: #000;
+}
+button:active,
+button:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 0.25rem rgba(0,0,0,0.15);
+}
+span,
+a,
+p,
+q,
+b,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: default;
+}
+
+#game.svelte-12fa0x5{display:flex;height:100vh;width:100vw;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-select:none;background-repeat:no-repeat;background-size:cover}#game.svelte-12fa0x5 .start-game.svelte-12fa0x5{margin:auto;padding:1rem;background-color:rgba(255,255,255,0.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:4px;text-align:center}#game.svelte-12fa0x5 .start-game button.svelte-12fa0x5{margin:1rem}#game.svelte-12fa0x5 .overlay.svelte-12fa0x5{z-index:50;position:fixed;height:100vh;width:100vw;pointer-events:none}#game.svelte-12fa0x5 .overlay .menu.svelte-12fa0x5{position:fixed;top:0;left:50%;display:flex;padding:1rem;flex-flow:row wrap;align-items:center;border-radius:0 0 4px 4px;background-color:#fff;transform:translate(-50%, calc(-100% + 0.75rem));box-shadow:0 0 50px rgba(0,0,0,0.4);pointer-events:all}#game.svelte-12fa0x5 .overlay .menu.svelte-12fa0x5:before{content:'';position:absolute;left:50%;bottom:0.3rem;height:2px;width:2rem;transform:translateX(-50%);background-color:#000;border-radius:1rem}#game.svelte-12fa0x5 .overlay .menu.svelte-12fa0x5:after{content:'';z-index:-1;position:absolute;top:0;left:0;height:150%;width:125%;transform:translateX(-10%)}#game.svelte-12fa0x5 .overlay .menu.svelte-12fa0x5:hover{transform:translate(-50%, 0)}#game.svelte-12fa0x5 .overlay .menu button .icon.svelte-12fa0x5{height:1rem;width:1rem;stroke:#000}#game.svelte-12fa0x5 .overlay .menu button.svelte-12fa0x5:not(:last-child){margin-right:1rem}#game.svelte-12fa0x5 .modal-viewport.svelte-12fa0x5{z-index:100;position:fixed;left:0;top:0;display:flex;height:100%;width:100%;padding:2rem;flex-flow:column nowrap;justify-content:flex-start;align-content:center;align-items:center;overflow-y:auto}#game.svelte-12fa0x5 .modal-viewport.svelte-12fa0x5:not(.active){pointer-events:none}#game.svelte-12fa0x5 .modal-viewport .background.svelte-12fa0x5{z-index:-1;position:fixed;left:0;top:0;height:100%;width:100%;background-color:rgba(0,0,0,0.5)}#game.svelte-12fa0x5 .modal-viewport .modal.svelte-12fa0x5{position:relative;margin:auto;padding:2rem;flex:0 0 auto;background-color:#fff;border-radius:4px;pointer-events:all}#game.svelte-12fa0x5 .chessfield.svelte-12fa0x5{position:relative;display:flex;min-height:300px;min-width:300px;margin:auto;flex-flow:row wrap;box-shadow:0 0 30px 1rem rgba(0,0,0,0.3)}#game.svelte-12fa0x5 .chessfield .row.svelte-12fa0x5{display:flex;height:12.5%;flex:0 0 100%}#game.svelte-12fa0x5 .chessfield .row .field.svelte-12fa0x5{display:flex;flex:0 0 12.5%;justify-content:center;align-content:center;align-items:center;box-sizing:border-box;font-size:0.5rem;font-weight:600;flex-flow:row wrap;text-align:center;box-shadow:none;background-color:#fff}#game.svelte-12fa0x5 .chessfield .row .field .figure.svelte-12fa0x5{height:50%;width:50%;flex:1 1 100%}#game.svelte-12fa0x5 .chessfield .row .field.turn-player:hover .figure.svelte-12fa0x5{transform:scale(1.4);cursor:pointer}#game.svelte-12fa0x5 .chessfield .row .field.selected.svelte-12fa0x5{z-index:100;-webkit-animation:svelte-12fa0x5-selectedFieldWhite 500ms ease alternate infinite;animation:svelte-12fa0x5-selectedFieldWhite 500ms ease alternate infinite}#game.svelte-12fa0x5 .chessfield .row .field.selected .figure.svelte-12fa0x5{transform:scale(1.4)}@-webkit-keyframes svelte-12fa0x5-selectedFieldWhite{from{box-shadow:0 0 0 0.1rem #fff}to{box-shadow:0 0 0 1rem rgba(255,255,255,0.5)}}@keyframes svelte-12fa0x5-selectedFieldWhite{from{box-shadow:0 0 0 0.1rem #fff}to{box-shadow:0 0 0 1rem rgba(255,255,255,0.5)}}#game.svelte-12fa0x5 .chessfield .row:nth-child(odd) .field.selected.svelte-12fa0x5:nth-child(odd),#game.svelte-12fa0x5 .chessfield .row:nth-child(even) .field.selected.svelte-12fa0x5:nth-child(even){-webkit-animation:svelte-12fa0x5-selectedFieldBlack 500ms ease alternate infinite;animation:svelte-12fa0x5-selectedFieldBlack 500ms ease alternate infinite}#game.svelte-12fa0x5 .chessfield .row:nth-child(odd) .field.svelte-12fa0x5:nth-child(odd),#game.svelte-12fa0x5 .chessfield .row:nth-child(even) .field.svelte-12fa0x5:nth-child(even){background-color:#222;color:#fff}@-webkit-keyframes svelte-12fa0x5-selectedFieldBlack{from{box-shadow:0 0 0 0.1rem #000}to{box-shadow:0 0 0 1rem rgba(0,0,0,0.5)}}@keyframes svelte-12fa0x5-selectedFieldBlack{from{box-shadow:0 0 0 0.1rem #000}to{box-shadow:0 0 0 1rem rgba(0,0,0,0.5)}}#game.svelte-12fa0x5 .chessfield .indicators.svelte-12fa0x5{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);pointer-events:none;transition:none}#game.svelte-12fa0x5 .chessfield .indicators .indicator.svelte-12fa0x5{z-index:-1;position:absolute;display:flex;font-size:0.6rem;font-weight:700;background-color:rgba(0,0,0,0.5);color:#fff;justify-content:center;align-content:center;align-items:center}#game.svelte-12fa0x5 .chessfield .indicators .indicator>.svelte-12fa0x5{display:flex;flex:1 1 12.5%;justify-content:center;align-content:center;align-items:center}#game.svelte-12fa0x5 .chessfield .indicators .indicator.top.svelte-12fa0x5,#game.svelte-12fa0x5 .chessfield .indicators .indicator.bottom.svelte-12fa0x5{left:0;height:1.25rem;width:100%;flex:row nowrap}#game.svelte-12fa0x5 .chessfield .indicators .indicator.top.svelte-12fa0x5{bottom:100%;border-radius:6px 6px 0 0}#game.svelte-12fa0x5 .chessfield .indicators .indicator.bottom.svelte-12fa0x5{top:100%;border-radius:0 0 6px 6px}#game.svelte-12fa0x5 .chessfield .indicators .indicator.left.svelte-12fa0x5,#game.svelte-12fa0x5 .chessfield .indicators .indicator.right.svelte-12fa0x5{top:0;width:1.25rem;height:100%;flex-flow:column nowrap}#game.svelte-12fa0x5 .chessfield .indicators .indicator.left.svelte-12fa0x5{right:100%;border-radius:6px 0 0 6px}#game.svelte-12fa0x5 .chessfield .indicators .indicator.right.svelte-12fa0x5{left:100%;border-radius:0 6px 6px 0}#game.svelte-12fa0x5 .chessfield-overlay.svelte-12fa0x5{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);pointer-events:none;transition:none}#game.svelte-12fa0x5 .chessfield-overlay .hovering.svelte-12fa0x5{position:absolute;display:flex;height:12.5%;width:12.5%;justify-content:center;align-content:center;align-items:center;color:#fff;border:solid 0.5rem transparent}#game.svelte-12fa0x5 .chessfield-overlay .hovering.target.svelte-12fa0x5{border-color:#f05;background-color:rgba(255,0,50,0.5)}#game.svelte-12fa0x5 .chessfield-overlay .hovering.move.svelte-12fa0x5{border-color:#000;background-color:rgba(0,0,0,0.5)}#game.fancy.svelte-12fa0x5 .overlay .menu.svelte-12fa0x5{background-color:rgba(255,255,255,0.4);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}#game.fancy.svelte-12fa0x5 .modal-viewport .background.svelte-12fa0x5{-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}#game.fancy.svelte-12fa0x5 .chessfield.svelte-12fa0x5{backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}#game.fancy.svelte-12fa0x5 .chessfield .row .field.svelte-12fa0x5{background-color:rgba(255,255,255,0.65)}#game.fancy.svelte-12fa0x5 .chessfield .row:nth-child(odd) .field.svelte-12fa0x5:nth-child(odd),#game.fancy.svelte-12fa0x5 .chessfield .row:nth-child(even) .field.svelte-12fa0x5:nth-child(even){background-color:rgba(0,0,0,0.65)}#game.fancy.svelte-12fa0x5 .chessfield-overlay .hovering.svelte-12fa0x5{backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}#game.fancy.svelte-12fa0x5 .chessfield .indicators .indicator.svelte-12fa0x5{background-color:rgba(0,0,0,0.3);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
