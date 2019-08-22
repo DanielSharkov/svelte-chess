@@ -1,6 +1,8 @@
 # [Svelte](https://svelte.dev) Chess
 
-_Game is not playable (yet)._
+### [Play Game](https://danielsharkov.github.io/svelte-chess)
+
+_Game is not fully playable (yet)._
 
 This is a Chess project writen in Svelte with stylus.
 
